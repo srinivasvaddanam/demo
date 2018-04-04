@@ -57,6 +57,8 @@
 					<businessGroup>Capgemini\India-AD&amp;I</businessGroup>
 					<environment>${env}</environment>
 					<application>${app.location}</application>
+					<applicationName>hello-1.0.0</applicationName>
+					<uri>https://anypoint.mulesoft.local</uri>
 				</configuration>
 				<executions>
 					<execution>
