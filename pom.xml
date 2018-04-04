@@ -19,6 +19,13 @@
 
 	<build>
 		<plugins>
+		<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-deploy-plugin</artifactId>
+  <configuration>
+    <skip>true</skip>
+  </configuration>
+</plugin>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-app-maven-plugin</artifactId>
@@ -195,7 +202,7 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-<distributionManagement>
+<!-- <distributionManagement>
     <repository>
         <uniqueVersion>false</uniqueVersion>
         <id>corp1</id>
@@ -203,6 +210,6 @@
         <url>file:///home/myfolder/.m2</url>
         <layout>default</layout>
     </repository>
-</distributionManagement>
+</distributionManagement> -->
 
 </project>
