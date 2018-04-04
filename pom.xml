@@ -65,6 +65,7 @@
 					<environment>${env}</environment>
 					<application>${app.location}</application>
 					<applicationName>hello-1.0.0</applicationName>
+					<redeploy>true</redeploy>
 					<uri>http://anypoint.mulesoft.com</uri>
 				</configuration>
 				<executions>
